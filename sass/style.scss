@@ -11,6 +11,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -45,5 +46,36 @@ body {
 
     .lab-4 {
         margin: 0px 20px 0px 3px;
+    }
+
+}
+
+#check-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    font: bold 1em italic Arial;
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 515px) {
+    #containerDoForm {
+        width: 100%;
+    }
+
+    #check-4 {
+        flex-direction: column;
     }
 }

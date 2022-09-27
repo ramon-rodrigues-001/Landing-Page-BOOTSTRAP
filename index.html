@@ -27,14 +27,14 @@
                 <label class="d-block" for="pri-nome">
                     <div class="input-group">
                         <div class="input-group-text">Primeiro Nome</div>
-                        <input class="form-control" id="pri-nome" type="text"placeholder="Digite Aqui">
+                        <input class="form-control" id="pri-nome" type="text"placeholder="Digite Aqui...">
                     </div>
                 </label>
                 
                 <label class="d-block" for="seg-nome">
                     <div class="input-group">
                         <div class="input-group-text">Segundo Nome</div>
-                        <input class="form-control" id="seg-nome" type="text" placeholder="Digite Aqui">
+                        <input class="form-control" id="seg-nome" type="text" placeholder="Digite Aqui...">
                     </div>
                 </label>
             </div>
@@ -79,24 +79,40 @@
                 </div>
             </div>
 
-            <div class="partes">
+            <div class="partes" id="check-4">
                 <P>4 - Quais você acha que são suas qualidades?</P>
-                <input class="form-check-input" type="checkbox" name="qualidades" id="proativo">
-                <label for="proativo" class="lab-4">Proativo</label>
+                <div>
+                    <input class="form-check-input" type="checkbox" name="qualidades" id="proativo">
+                    <label for="proativo" class="lab-4">Proativo</label>
+                </div>
 
-                <input class="form-check-input" type="checkbox" name="qualidades" id="resistente">
-                <label for="resistente" class="lab-4">Resistente</label>
+                <div>
+                    <input class="form-check-input" type="checkbox" name="qualidades" id="resistente">
+                    <label for="resistente" class="lab-4">Resistente</label>
+                </div>
 
-                <input class="form-check-input" type="checkbox" name="qualidades" id="naoVomitoFacil">
-                <label for="naoVomitoFacil" class="lab-4">Não vomito fácil</label>
+                <div>
+                    <input class="form-check-input" type="checkbox" name="qualidades" id="naoVomitoFacil">
+                    <label for="naoVomitoFacil" class="lab-4">Não vomito fácil</label>
+                </div>
 
-                <input class="form-check-input" type="checkbox" name="qualidades" id="naoTemoMarciano">
-                <label for="naoTemoMarciano" class="lab-4">Não temo marciano</label>
+                <div>
+                    <input class="form-check-input" type="checkbox" name="qualidades" id="naoTemoMarciano">
+                    <label for="naoTemoMarciano" class="lab-4">Não temo marciano</label>
+                </div>
 
-                <input class="form-check-input" type="checkbox" name="qualidades" id="jaViTodosOsStarwars">
-                <label for="jaViTodosOsStarwars" class="lab-4">Já vi todos os star wars</label>
+                <div>
+                    <input class="form-check-input" type="checkbox" name="qualidades" id="jaViTodosOsStarwars">
+                    <label for="jaViTodosOsStarwars" class="lab-4">Já vi todos os star wars</label>
+                </div>
             </div>
+
+            <input class="btn btn-outline-danger" type="submit" value="Enviar">
         </form>
     </div>
+
+    <footer>
+        <p class="m-2 footer">Feito por Ramon Rodrigues &copy;OneBitCode todos os direitos reservados - 27/09/2022</p>
+    </footer>
 </body>
 </html>
