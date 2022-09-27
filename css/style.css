@@ -51,7 +51,8 @@ main#containerDoForm {
 }
 
 @media screen and (max-width: 515px) {
-  #containerDoForm {
+  main#containerDoForm {
+    background-color: rgba(19, 18, 18, 0.724);
     width: 100%;
   }
   #check-4 {
