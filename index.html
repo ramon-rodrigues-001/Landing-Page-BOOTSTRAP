@@ -16,30 +16,32 @@
     <title>Landing Page de Formulario</title>
 </head>
 <body class="p-4">
-    <div id="containerDoForm">
-        <div class="img-fluid" id="div-img">
-            <img src="imagens/logoOneBitDark.png" alt="Logo onebitcode" id="logo">
+    <main id="containerDoForm">
+        <div class="img-fluid" id="div-img-logo">
+            <img src="imagens/logoOneBitDark.png" alt="Logo onebitcode" id="teg-img-logo">
         </div>
 
         <form action="#">
-            <div class="partes">
+            <!-- Primeira parte -->
+            <div class="partes mt-3">
                 <p>1 - Qual seu nome?</p>
                 <label class="d-block" for="pri-nome">
                     <div class="input-group">
-                        <div class="input-group-text">Primeiro Nome</div>
+                        <span class="input-group-text">Primeiro Nome</span>
                         <input class="form-control" id="pri-nome" type="text"placeholder="Digite Aqui...">
                     </div>
                 </label>
                 
                 <label class="d-block" for="seg-nome">
                     <div class="input-group">
-                        <div class="input-group-text">Segundo Nome</div>
+                        <span class="input-group-text">Segundo Nome</span>
                         <input class="form-control" id="seg-nome" type="text" placeholder="Digite Aqui...">
                     </div>
                 </label>
             </div>
             
-            <div class="partes">
+            <!-- Segunda parte -->
+            <div class="partes mt-3">
                 <p>2 - Qual seu genero?</p>
                 <input class="form-check-input" type="radio" name="genero" id="M">
                 <label for="M">Masculino</label> <br>
@@ -49,20 +51,21 @@
                 <label for="F">Femenino</label> <br>
 
                 
-                <input class="form-check-input" type="radio" name="genero" id="nãoInformado">
+                <input class="form-check-input" type="radio" name="genero" id="nãoInformado" checked>
                 <label for="nãoInformado">Prefiro não informar</label>
             </div>
 
-            <div class="partes">
+            <!-- Terceira parte -->
+            <div class="partes mt-3">
                 <p>3 - Marque os treinamentos que você fez.</p>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" name="b-astro" id="bas-astro">
+                    <input class="form-check-input" type="checkbox" name="b-astro" id="bas-astro" checked>
                     <label for="bas-astro">Treinamento básico de astronauta</label>
                 </div>
 
                 
                 <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" name="b-fis" id="bas-fis">
+                    <input class="form-check-input" type="checkbox" name="b-fis" id="bas-fis" checked>
                     <label for="bas-fis">Treinamento físico básico</label>
                 </div>
 
@@ -79,37 +82,38 @@
                 </div>
             </div>
 
-            <div class="partes" id="check-4">
+            <!-- Quarta parte -->
+            <div class="partes mt-3" id="parte-4-final">
                 <P>4 - Quais você acha que são suas qualidades?</P>
                 <div>
                     <input class="form-check-input" type="checkbox" name="qualidades" id="proativo">
-                    <label for="proativo" class="lab-4">Proativo</label>
+                    <label for="proativo" class="label-parte-4">Proativo</label>
                 </div>
 
                 <div>
                     <input class="form-check-input" type="checkbox" name="qualidades" id="resistente">
-                    <label for="resistente" class="lab-4">Resistente</label>
+                    <label for="resistente" class="label-parte-4">Resistente</label>
                 </div>
 
                 <div>
                     <input class="form-check-input" type="checkbox" name="qualidades" id="naoVomitoFacil">
-                    <label for="naoVomitoFacil" class="lab-4">Não vomito fácil</label>
+                    <label for="naoVomitoFacil" class="label-parte-4">Não vomito fácil</label>
                 </div>
 
                 <div>
                     <input class="form-check-input" type="checkbox" name="qualidades" id="naoTemoMarciano">
-                    <label for="naoTemoMarciano" class="lab-4">Não temo marciano</label>
+                    <label for="naoTemoMarciano" class="label-parte-4">Não temo marciano</label>
                 </div>
 
                 <div>
                     <input class="form-check-input" type="checkbox" name="qualidades" id="jaViTodosOsStarwars">
-                    <label for="jaViTodosOsStarwars" class="lab-4">Já vi todos os star wars</label>
+                    <label for="jaViTodosOsStarwars" class="label-parte-4">Já vi todos os star wars</label>
                 </div>
             </div>
 
-            <input class="btn btn-outline-danger" type="submit" value="Enviar">
+            <input class="btn btn-outline-danger d-block m-auto" type="submit" value="Enviar">
         </form>
-    </div>
+    </main>
 
     <footer>
         <p class="m-2 footer">Feito por Ramon Rodrigues &copy;OneBitCode todos os direitos reservados - 27/09/2022</p>
