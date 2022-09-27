@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-// Variaveis Cores
-@import "Variaveis/cores.scss";
 
 * {
   box-sizing: border-box;
@@ -15,14 +13,13 @@ input,.input-group-text {
     margin-bottom: 10px;
 }
 
-
 body {
     background: url(../imagens/backgroundLp.png) right bottom no-repeat;
     background-size: cover;
 }
 
 main#containerDoForm {
-    background-color: $Container;
+    background-color: #131212f1;
     color: white;
     border-radius: 5px;
     box-shadow: 3px 3px 7px black;

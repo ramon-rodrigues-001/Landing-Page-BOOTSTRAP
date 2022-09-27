@@ -13,9 +13,9 @@
 
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Landing Page de Formulario</title>
+    <title>Rumo a Marte</title>
 </head>
-<body class="p-4">
+<body class="p-5">
     <main id="containerDoForm">
         <div class="img-fluid" id="div-img-logo">
             <img src="imagens/logoOneBitDark.png" alt="Logo onebitcode" id="teg-img-logo">
@@ -45,15 +45,14 @@
                 <p>2 - Qual seu genero?</p>
                 <input class="form-check-input" type="radio" name="genero" id="M">
                 <label for="M">Masculino</label> <br>
-
                 
                 <input class="form-check-input" type="radio" name="genero" id="F">
                 <label for="F">Femenino</label> <br>
-
                 
                 <input class="form-check-input" type="radio" name="genero" id="nãoInformado" checked>
                 <label for="nãoInformado">Prefiro não informar</label>
             </div>
+
 
             <!-- Terceira parte -->
             <div class="partes mt-3">
@@ -62,25 +61,23 @@
                     <input class="form-check-input" type="checkbox" name="b-astro" id="bas-astro" checked>
                     <label for="bas-astro">Treinamento básico de astronauta</label>
                 </div>
-
                 
                 <div class="form-check form-switch">
                     <input class="form-check-input" type="checkbox" name="b-fis" id="bas-fis" checked>
                     <label for="bas-fis">Treinamento físico básico</label>
                 </div>
-
                 
                 <div class="form-check form-switch">
                     <input class="form-check-input" type="checkbox" name="a-astro" id="avan-astro">
                     <label for="avan-astro">Treinamento avançado de astronauta</label>
                 </div>
-
                 
                 <div class="form-check form-switch">
                     <input class="form-check-input" type="checkbox" name="a-fis" id="avan-fis">
                     <label for="avan-fis">Treinamento físico avançado</label>
                 </div>
             </div>
+
 
             <!-- Quarta parte -->
             <div class="partes mt-3" id="parte-4-final">
@@ -111,12 +108,17 @@
                 </div>
             </div>
 
-            <input class="btn btn-outline-danger d-block m-auto" type="submit" value="Enviar">
+
+            <!-- Butão Submit -->
+            <input class="btn btn-outline-danger d-block mx-auto my-2" type="submit" value="Enviar" id="butao">
         </form>
     </main>
 
     <footer>
-        <p class="m-2 footer">Feito por Ramon Rodrigues &copy;OneBitCode todos os direitos reservados - 27/09/2022</p>
+        <p class="mt-3 footer">Feito por Ramon Rodrigues &copy;OneBitCode todos os direitos reservados - 27/09/2022</p>
     </footer>
+
+    <div id="corOrig"></div>
+    <div id="corAtua"></div>
 </body>
 </html>
