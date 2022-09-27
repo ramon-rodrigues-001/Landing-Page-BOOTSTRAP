@@ -10,15 +10,15 @@ body {
   align-items: center;
   background: url(../imagens/backgroundLp.png) right bottom no-repeat;
   background-size: cover;
-  min-width: 100vw;
+  min-width: 95vw;
   min-height: 100vh;
 }
 
 #containerDoForm {
   background-color: rgba(19, 18, 18, 0.9450980392);
   color: white;
-  max-width: 500px;
-  padding: 20px;
+  width: 450px;
+  padding: 25px;
 }
 
 #div-img {
@@ -29,8 +29,14 @@ body {
   max-width: 200px;
 }
 
-input, .input-group-text {
-  margin: 0px 0px 10px 0px;
+.partes {
+  margin: 15px 0px;
+}
+.partes input, .partes .input-group-text {
+  margin-bottom: 10px;
+}
+.partes .lab-4 {
+  margin: 0px 20px 0px 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

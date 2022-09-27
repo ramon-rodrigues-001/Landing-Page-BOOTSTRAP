@@ -21,10 +21,10 @@
             <img src="imagens/logoOneBitDark.png" alt="Logo onebitcode" id="logo">
         </div>
 
-        <form class="d-block" action="#">
-            <p>1 - Qual seu nome?</p>
-            <div class="row">
-                <label for="pri-nome">
+        <form action="#">
+            <div class="partes">
+                <p>1 - Qual seu nome?</p>
+                <label class="d-block" for="pri-nome">
                     <div class="input-group">
                         <div class="input-group-text">Primeiro Nome</div>
                         <input class="form-control" id="pri-nome" type="text"placeholder="Digite Aqui">
@@ -37,7 +37,65 @@
                         <input class="form-control" id="seg-nome" type="text" placeholder="Digite Aqui">
                     </div>
                 </label>
-            </div>            
+            </div>
+            
+            <div class="partes">
+                <p>2 - Qual seu genero?</p>
+                <input class="form-check-input" type="radio" name="genero" id="M">
+                <label for="M">Masculino</label> <br>
+
+                
+                <input class="form-check-input" type="radio" name="genero" id="F">
+                <label for="F">Femenino</label> <br>
+
+                
+                <input class="form-check-input" type="radio" name="genero" id="nãoInformado">
+                <label for="nãoInformado">Prefiro não informar</label>
+            </div>
+
+            <div class="partes">
+                <p>3 - Marque os treinamentos que você fez.</p>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" name="b-astro" id="bas-astro">
+                    <label for="bas-astro">Treinamento básico de astronauta</label>
+                </div>
+
+                
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" name="b-fis" id="bas-fis">
+                    <label for="bas-fis">Treinamento físico básico</label>
+                </div>
+
+                
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" name="a-astro" id="avan-astro">
+                    <label for="avan-astro">Treinamento avançado de astronauta</label>
+                </div>
+
+                
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" name="a-fis" id="avan-fis">
+                    <label for="avan-fis">Treinamento físico avançado</label>
+                </div>
+            </div>
+
+            <div class="partes">
+                <P>4 - Quais você acha que são suas qualidades?</P>
+                <input class="form-check-input" type="checkbox" name="qualidades" id="proativo">
+                <label for="proativo" class="lab-4">Proativo</label>
+
+                <input class="form-check-input" type="checkbox" name="qualidades" id="resistente">
+                <label for="resistente" class="lab-4">Resistente</label>
+
+                <input class="form-check-input" type="checkbox" name="qualidades" id="naoVomitoFacil">
+                <label for="naoVomitoFacil" class="lab-4">Não vomito fácil</label>
+
+                <input class="form-check-input" type="checkbox" name="qualidades" id="naoTemoMarciano">
+                <label for="naoTemoMarciano" class="lab-4">Não temo marciano</label>
+
+                <input class="form-check-input" type="checkbox" name="qualidades" id="jaViTodosOsStarwars">
+                <label for="jaViTodosOsStarwars" class="lab-4">Já vi todos os star wars</label>
+            </div>
         </form>
     </div>
 </body>
