@@ -1,2 +1,41 @@
+@charset "UTF-8";
+
 // Variaveis Cores
 @import "Variaveis/cores.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  background: url(../imagens/backgroundLp.png) right bottom no-repeat;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#containerDoForm {
+    background-color: $Container;
+    color: white;
+    max-width: 500px;
+    padding: 20px;
+}
+
+#div-img {
+    margin: 10px 5px 20px 5px;
+    text-align: center;
+    
+    #logo {
+        max-width: 200px;
+    }
+}
+
+input,.input-group-text {
+    margin: 0px 0px 10px 0px;
+}
