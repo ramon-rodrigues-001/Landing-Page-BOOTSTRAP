@@ -14,8 +14,14 @@ input,.input-group-text {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     background: url(../imagens/backgroundLp.png) right bottom no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 main#containerDoForm {
@@ -23,7 +29,6 @@ main#containerDoForm {
     color: white;
     border-radius: 5px;
     box-shadow: 3px 3px 7px black;
-    margin: auto;
     width: 450px;
     padding: 25px;
 }
@@ -56,11 +61,16 @@ main#containerDoForm {
 
 
 @media screen and (max-width: 515px) {
-    #containerDoForm {
-        width: 100%;
+    body {
+        font-size: 1.5em;
+    }
+
+    main#containerDoForm {
+        width: 99%;
     }
 
     #check-4 {
         flex-direction: column;
     }
+
 }
